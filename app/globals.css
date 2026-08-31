@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+/*
+ * Tailwind v4 is CSS-first: theme tokens that used to live in
+ * tailwind.config.ts (theme.extend) are now declared here with
+ * @theme, and Tailwind generates the matching utilities automatically
+ * (e.g. --font-sans below gives you the `font-sans` class).
+ *
+ * The var(--font-manrope) etc. on the right-hand side are the actual
+ * font-family strings injected by next/font in layout.tsx — kept under
+ * different names so they don't collide with the Tailwind theme keys
+ * of the same short name.
+ */
+@theme {
+  --font-sans: var(--font-manrope), ui-sans-serif, system-ui, sans-serif;
+  --font-serif-display: var(--font-playfair), Georgia, serif;
+  --font-hand: var(--font-caveat), cursive;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Custom utility (v4 way of adding one-off utilities so it still
+   respects variants like sm: / hover: if ever needed). */
+@utility text-balance {
+  text-wrap: balance;
+}

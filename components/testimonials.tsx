@@ -30,6 +30,14 @@ const TESTIMONIALS = [
       '"We came in with a rough idea and left with a product our users love. The UI/UX work was thoughtful, the collaboration was effortless, and the results spoke for themselves within the first month."',
     image: "/testimonials/client-3.png",
   },
+  {
+    name: "Arjun Mehta",
+    role: "CEO, Fintech Startup",
+    year: "2024",
+    quote:
+      '"Aman is a rare talent who combines creativity with technical know-how. The redesign of our platform led to a 30% increase in user engagement. His insights and recommendations were invaluable."',
+    image: "/testimonials/client-4.png",  
+  }
 ];
 
 gsap.registerPlugin(ScrollTrigger);

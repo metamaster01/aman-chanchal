@@ -105,7 +105,7 @@ function VentureCopy() {
       </p>
 
       <a
-        href="#portfolio"
+        href="https://metamaster.in"
         className="group mt-6 inline-flex items-center gap-2 border-b border-neutral-900 pb-1 text-sm font-medium text-neutral-900"
       >
         know more about Meta master

@@ -77,7 +77,7 @@ export function About() {
             </div>
 
             <a
-              href="#contact"
+              href="/about"
               className="group mt-8 inline-flex items-center gap-2 border-b border-neutral-900 pb-1 text-sm font-medium text-neutral-900"
             >
               know more about me

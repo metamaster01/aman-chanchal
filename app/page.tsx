@@ -12,7 +12,7 @@ import { AboutStats } from "@/components/about-stats";
 export default function Home() {
   return (
     <main className="min-h-screen bg-white">
-      <Navbar />
+      <Navbar transparentAtTop />
       <Hero />
       <About />
       <AboutStats />

@@ -397,7 +397,7 @@ export function Hero() {
   return (
     <section
       id="top"
-      className="relative overflow-hidden bg-neutral-950 px-5 pb-28 pt-16 sm:px-8 sm:pt-24 md:pt-8 md:pb-4"
+      className="relative overflow-hidden bg-neutral-950 px-5 pb-28 pt-16 sm:px-8 sm:pt-24 md:pt-32 md:pb-4"
     >
       {/* Live webcam pixel-grid background — props matched 1:1 to the
           reference demo (60x40 grid, maxElevation 50, real webcam

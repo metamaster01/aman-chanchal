@@ -49,7 +49,7 @@ export function ContactForm() {
   };
 
   return (
-    <section id="contact-form" className="bg-[#08182b] px-5 py-20 sm:px-8 sm:py-28">
+    <section id="contact-form" className="bg-[radial-gradient(ellipse_120%_80%_at_50%_-10%,#FFFFFF_0%,#F8F5EC_45%,#EFE9DA_100%)]px-5 py-20 sm:px-8 sm:py-28">
       <div className="mx-auto grid max-w-6xl gap-12 lg:grid-cols-2 lg:items-start lg:gap-16">
         <motion.div
           initial={{ opacity: 0, y: 24 }}
@@ -57,10 +57,10 @@ export function ContactForm() {
           viewport={{ once: true, amount: 0.3 }}
           transition={{ duration: 0.6, ease: "easeOut" }}
         >
-          <h2 className="text-3xl font-semibold text-white sm:text-4xl">
+          <h2 className="text-3xl font-semibold text-black sm:text-4xl">
             Get in touch
           </h2>
-          <p className="mt-3 max-w-md text-sm leading-relaxed text-white/50 sm:text-base">
+          <p className="mt-3 max-w-md text-sm leading-relaxed text-black/50 sm:text-base">
             We are glad that you want to get in touch with us. If you have
             any questions, comments or feedback please feel free to contact.
           </p>
@@ -73,7 +73,7 @@ export function ContactForm() {
                 value={form.name}
                 onChange={handleChange}
                 placeholder="Name"
-                className="rounded-lg border border-white/10 bg-white/5 px-4 py-3 text-sm text-white placeholder-white/40 outline-none transition-colors focus:border-orange-400"
+                className="rounded-lg border border-black/10 bg-black/5 px-4 py-3 text-sm text-black placeholder-black/40 outline-none transition-colors focus:border-orange-400"
               />
               <input
                 required
@@ -82,7 +82,7 @@ export function ContactForm() {
                 value={form.email}
                 onChange={handleChange}
                 placeholder="Email"
-                className="rounded-lg border border-white/10 bg-white/5 px-4 py-3 text-sm text-white placeholder-white/40 outline-none transition-colors focus:border-orange-400"
+                className="rounded-lg border border-black/10 bg-black/5 px-4 py-3 text-sm text-black placeholder-black/40 outline-none transition-colors focus:border-orange-400"
               />
             </div>
 
@@ -93,7 +93,7 @@ export function ContactForm() {
               onChange={handleChange}
               placeholder="Message"
               rows={5}
-              className="w-full resize-none rounded-lg border border-white/10 bg-white/5 px-4 py-3 text-sm text-white placeholder-white/40 outline-none transition-colors focus:border-orange-400"
+              className="w-full resize-none rounded-lg border border-black/10 bg-black/5 px-4 py-3 text-sm text-black placeholder-black/40 outline-none transition-colors focus:border-orange-400"
             />
 
             <div className="flex flex-col items-start gap-3 sm:flex-row sm:items-center">
@@ -101,7 +101,7 @@ export function ContactForm() {
                 type="submit"
                 disabled={status === "loading"}
                 whileTap={{ scale: 0.97 }}
-                className="w-full rounded-lg bg-orange-500 px-8 py-3.5 text-sm font-medium text-white transition-colors hover:bg-orange-600 disabled:cursor-not-allowed disabled:opacity-60 sm:w-auto sm:px-12"
+                className="w-full rounded-lg bg-orange-500 px-8 py-3.5 text-sm font-medium text-black transition-colors hover:bg-orange-600 disabled:cursor-not-allowed disabled:opacity-60 sm:w-auto sm:px-12"
               >
                 {status === "loading"
                   ? "Sending..."
@@ -137,9 +137,9 @@ export function ContactForm() {
             </div>
           </form>
 
-          <div className="mt-10 space-y-1 text-sm text-white/50">
-            <p>Phone: +91 00000 00000</p>
-            <p>Email: amankrchanchal@gmail.com</p>
+          <div className="mt-10 space-y-1 text-sm text-black/50">
+            <p>Phone: +91 952 977 0498</p>
+            <p>Email: ceo.metamaster@gmail.com</p>
           </div>
         </motion.div>
 
@@ -148,7 +148,7 @@ export function ContactForm() {
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true, amount: 0.3 }}
           transition={{ duration: 0.6, ease: "easeOut" }}
-          className="relative aspect-[4/5] w-full overflow-hidden rounded-2xl bg-white/5 lg:aspect-auto lg:h-full lg:min-h-[420px]"
+          className="relative aspect-[4/5] w-full overflow-hidden rounded-2xl bg-black/5 lg:aspect-auto lg:h-full lg:min-h-[420px]"
         >
           <Image
             src="/images/contact-photo.png"

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Manrope, Playfair_Display, Caveat } from "next/font/google";
 import "./globals.css";
+import { SmoothScrollProvider } from "@/components/ui/SmoothScrollProvider";
 
 const manrope = Manrope({
   subsets: ["latin"],
@@ -37,7 +38,7 @@ export default function RootLayout({
       <body
         className={`${manrope.variable} ${playfair.variable} ${caveat.variable} font-sans antialiased`}
       >
-        {children}
+        <SmoothScrollProvider>{children}</SmoothScrollProvider>
       </body>
     </html>
   );

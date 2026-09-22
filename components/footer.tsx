@@ -209,14 +209,14 @@ export function Footer() {
                 Get in Touch
               </p>
               <div className="mt-3 space-y-1 text-sm text-white/80">
-                <p>amanchanchal02@gmail.com</p>
-                <p>+91 00000 00000</p>
+                <p>ceo.metamaster@gmail.com</p>
+                <p>+91 952 977 0498</p>
               </div>
             </div>
           </div>
 
           <p className="mt-10 text-xs text-white/30">
-            © {new Date().getFullYear()} Aman Chanchal. All rights reserved.
+            © {new Date().getFullYear()} Aman Chanchal | <a href="https://metamaster.in" target="_blank" rel="noreferrer" className="text-white/60 hover:text-white">Meta Master</a>. All rights reserved.
           </p>
         </div>
       </div>

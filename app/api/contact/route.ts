@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { Resend } from "resend";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
-const TO_EMAIL = "amankrchanchal@gmail.com";
+const TO_EMAIL = "ceo.metamaster@gmail.com";
 
 function escapeHtml(value: string) {
   return value
@@ -48,7 +48,7 @@ export async function POST(req: NextRequest) {
     }
 
     const { data, error } = await resend.emails.send({
-      from: "Portfolio Contact Form <onboarding@resend.dev>",
+      from: "leads@amankumarchanchal.com",
       to: TO_EMAIL,
       replyTo: email,
       subject: `New enquiry from ${name}`,

@@ -452,7 +452,7 @@ interface ScrollBeeProps {
 export function ScrollBee({
   containerRef,
   targetSelector = ".bee-target",
-  lottiePath = "/bee.json",
+  lottiePath = "/Bee.json",
 }: ScrollBeeProps) {
   const beeRef = useRef<HTMLDivElement>(null);
   const shadowRef = useRef<HTMLDivElement>(null);

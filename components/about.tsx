@@ -704,7 +704,7 @@ export function About() {
       // hero. The rounded top + upward shadow just make that edge read clearly.
       // Lighter, less-saturated gradient than before — leaning toward bright/
       // silky rather than deep cream — plus the noise layer just below for shine.
-      className="relative overflow-hidden rounded-t-[2rem] bg-[radial-gradient(ellipse_120%_80%_at_50%_-10%,#FFFFFF_0%,#F8F5EC_45%,#EFE9DA_100%)] py-24 shadow-[0_-40px_80px_rgba(0,0,0,0.55)] sm:rounded-t-[3rem] sm:py-32 overflow-x-hidden"
+      className="relative overflow-hidden rounded-t-[2rem] bg-[radial-gradient(ellipse_120%_80%_at_50%_-10%,#FFFFFF_0%,#F8F5EC_45%,#EFE9DA_100%)] py-24 shadow-[0_-40px_80px_rgba(0,0,0,0.55)] sm:rounded-t-[3rem] sm:py-32"
     >
       {/* subtle grain — pure texture, sits behind everything else */}
       <div

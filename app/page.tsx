@@ -25,8 +25,8 @@ export default function Home() {
       <About />
       {/* <AboutStats /> */}
       <Venture />
-      {/* <WorkShowcase /> */}
       <Testimonials />
+      <WorkShowcase />
       <Gallery />
       <ContactBanner />
       <ContactForm />

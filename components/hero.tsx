@@ -2303,7 +2303,7 @@ const EMAIL = "ceo.metamaster@gmail.com";
 // /public/frames/frame_001.jpg … frame_080.jpg
 const FRAME_COUNT = 80;
 const frameSrc = (index: number) =>
-  `/frames/frame_${String(index + 1).padStart(3, "0")}.jpg`;
+  `/frames/frame-v2/frame_${String(index + 1).padStart(3, "0")}.webp`;
 
 // /public/icons/icon-1 … icon-7  (change the extension if yours differ)
 const LOGOS = Array.from({ length: 7 }, (_, i) => `/icons/icon-${i + 1}.png`);
